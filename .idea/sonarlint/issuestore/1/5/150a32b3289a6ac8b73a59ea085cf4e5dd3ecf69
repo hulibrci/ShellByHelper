@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¾èÇþÿÿÿÿ
+u
+java:S3008
+"XRename this field "token_shellby" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÍƒˆ8–¸Ú±·.
+o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðïõàúÿÿÿÿ8šßá±·.
