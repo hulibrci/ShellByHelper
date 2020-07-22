@@ -9,3 +9,7 @@ z
 Jsrc/main/java/com/Daskama/shelby/comands/ComanndShellby_reverseshells.java,f\e\fe32fa3cb1b2841f6f174737ad0217b12059b663
 n
 >src/main/java/com/Daskama/shelby/config_program/ConfigAll.java,1\5\150a32b3289a6ac8b73a59ea085cf4e5dd3ecf69
+9
+	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
+?
+settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
