@@ -1,6 +1,15 @@
 
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¾èÇþÿÿÿÿ
 u
 java:S3008
 "XRename this field "token_shellby" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÍƒˆ8–¸Ú±·.
-o	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðïõàúÿÿÿÿ8šßá±·.
+o	java:S100#"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ðïõàúÿÿÿÿ8ÕÒ…¹·.
+u
+java:S3008"SRename this field "Activity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èŸ­£ÿÿÿÿÿ8»ó“Ü·.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óý¤Ÿúÿÿÿÿ8ÕÒ…¹·.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¾èÇþÿÿÿÿ
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(é¾¤™þÿÿÿÿ8ÕÒ…¹·.
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(õ‡àK8Ôµ•Ü·.
+8
+java:S3626"Remove this redundant jump.(ûÁÝ…8ÕÒ…¹·.

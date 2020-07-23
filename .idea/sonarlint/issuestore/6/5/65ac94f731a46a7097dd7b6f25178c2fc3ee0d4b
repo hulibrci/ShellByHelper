@@ -1,7 +1,12 @@
 
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8ÙÊç±·.
-n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´”¬v
-U	java:S106"9Replace this use of System.out or System.err by a logger.(Õñ¦†8ÙÊç±·.
-Z	java:S106 "9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8ÙÊç±·.
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´”¬v8´Ÿµ¿·.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(Õñ¦†8´Ÿµ¿·.
+W
+java:S2209)"5Change this instance-reference to a static reference.(ð²Üîúÿÿÿÿ8üïžÜ·.
+Z	java:S106#"9Replace this use of System.out or System.err by a logger.(Ðªîºÿÿÿÿÿ8¿ëàÛ·.
 R
-java:S2209"5Change this instance-reference to a static reference.(ï¥ªÞ8úöà³·.
+java:S2209"5Change this instance-reference to a static reference.(ï¥ªÞ8´Ÿµ¿·.
+`
+java:S1128"DRemove this unused import 'org.javacord.api.entity.user.UserStatus'.(Öêô!8…é„Ü·.
+Z	java:S106!"9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8´Ÿµ¿·.
+Z	java:S106$"9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8´Ÿµ¿·.
