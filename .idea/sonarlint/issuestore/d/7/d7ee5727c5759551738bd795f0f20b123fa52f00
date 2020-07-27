@@ -1,13 +1,13 @@
 
 F
 java:S1481")Remove this unused "help" local variable.(ûÚÒµ8ÑÏ·¿·.
-W
-java:S1854":Remove this useless assignment to local variable "config".(™…†Ž8ÑÏ·¿·.
 n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
->
-java:S1116%"Remove this empty statement.(ôŸŽìúÿÿÿÿ8äí€à¶.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
 U
 java:S1854"8Remove this useless assignment to local variable "help".(ûÚÒµ8ÑÏ·¿·.
+>
+java:S1116,"Remove this empty statement.(ôŸŽìúÿÿÿÿ8äí€à¶.
+W
+java:S1854":Remove this useless assignment to local variable "config".(™…†Ž8ÑÏ·¿·.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
 H
 java:S1481"+Remove this unused "config" local variable.(™…†Ž8ÑÏ·¿·.

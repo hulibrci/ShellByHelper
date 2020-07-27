@@ -9,6 +9,8 @@ public class ConfigAll {
 
     private static String token_shellby ;
     private static String Activity;
+    private static String bot_menu;
+
 
     public void initconfig(){
         Properties prop = new Properties();
@@ -16,6 +18,8 @@ public class ConfigAll {
             prop.load(fis);
             token_shellby = prop.getProperty("Bot_Token");
             Activity = prop.getProperty("Bot_Activity");
+            bot_menu = prop.getProperty("Bot_Menu");
+
             //create a INVITE URL
 
         }
@@ -28,6 +32,10 @@ public class ConfigAll {
     }
 //GET METODY
 
+
+    public static String getBot_menu() {
+        return bot_menu;
+    }
 
     public static String getActivity() {
         return Activity;

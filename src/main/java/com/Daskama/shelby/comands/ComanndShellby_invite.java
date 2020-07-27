@@ -22,7 +22,7 @@ public class ComanndShellby_invite implements MessageCreateListener {
                             .setDescription("You can invite the bot by using the following url: \n" + voidinvite.getInviteUrl())
                             .setTimestampToNow()
                             .setFooter("Shellby Helper")
-                            .setColor(Color.BLUE))
+                            .setColor(new Color(27, 113, 158)))
                     .send(event.getChannel()).join();
 
         };

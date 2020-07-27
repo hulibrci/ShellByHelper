@@ -13,7 +13,9 @@ import org.javacord.api.util.logging.FallbackLoggerConfiguration;
 
 
 public class MainVoid {
+
     private static String INVITE_URL ;
+
 
     public static void main(String[] args) {
         //Config
@@ -32,7 +34,7 @@ public class MainVoid {
 
         //LOGO
         System.out.println( "#---------------------------------------------------------------------------#");
-        System.out.println( "ShellBy_Helper v 0.0.1 is now ONLINE" );
+        System.out.println( "ShellBy_Helper v 0.0.4 is now ONLINE" );
         System.out.println( "Developer : Daskama" );
         System.out.println("You can invite the bot by using the following url: " + api.createBotInvite());
         System.out.println("#---------------------------------------------------------------------------#");
@@ -44,6 +46,11 @@ public class MainVoid {
         api.addListener(new ComanndShellby_invite());
         //activity
         api.updateActivity(config.getActivity());
+
+        //log a mesage to join leave bot
+        api.addServerJoinListener(event -> System.out.println("Joined server " + event.getServer().getName()));
+        api.addServerLeaveListener(event -> System.out.println("Left server " + event.getServer().getName()));
+
     }
     //geter pre String invite
 

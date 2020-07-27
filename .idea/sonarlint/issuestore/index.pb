@@ -13,3 +13,7 @@ n
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
 ?
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
+s
+Csrc/main/java/com/Daskama/shelby/comands/ComanndShellby_invite.java,2\a\2aa78a00067461b15991b1d8fc0161cfa4718765
+v
+Fsrc/main/java/com/Daskama/shelby/comands/ComanndShellby_thmcomand.java,3\b\3bb0bd4e779dc8d6f779c5651d3597cb16915b9c
