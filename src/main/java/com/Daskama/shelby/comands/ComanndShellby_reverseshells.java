@@ -13,9 +13,6 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
         Message sprava_shell = event.getMessage();
 
 
-
-        //```
-
         if (sprava_shell.getContent().equalsIgnoreCase("-shh bash")) {
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()

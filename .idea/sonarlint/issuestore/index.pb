@@ -15,5 +15,7 @@ n
 settings.gradle,0\5\05efc8b1657769a27696d478ded1e95f38737233
 s
 Csrc/main/java/com/Daskama/shelby/comands/ComanndShellby_invite.java,2\a\2aa78a00067461b15991b1d8fc0161cfa4718765
-v
-Fsrc/main/java/com/Daskama/shelby/comands/ComanndShellby_thmcomand.java,3\b\3bb0bd4e779dc8d6f779c5651d3597cb16915b9c
+x
+Hsrc/main/java/com/Daskama/shelby/comands/ComanndShellby_admincomand.java,e\b\ebddeebdf64bdff6dfac0de60f4062126e2c5ffb
+H
+config/config.properties,5\5\55e705ec8a54331429362d69200c4d6bffa6d570

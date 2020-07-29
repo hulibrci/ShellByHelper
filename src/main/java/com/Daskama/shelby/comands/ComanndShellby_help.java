@@ -1,5 +1,6 @@
 package com.Daskama.shelby.comands;
 
+import com.Daskama.shelby.Core.MainVoid;
 import com.Daskama.shelby.config_program.ConfigAll;
 import org.javacord.api.entity.message.Message;
 import org.javacord.api.entity.message.MessageBuilder;
@@ -7,25 +8,26 @@ import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.javacord.api.listener.message.MessageCreateListener;
 
+import com.sun.management.OperatingSystemMXBean;
 import java.awt.*;
+import java.lang.management.ManagementFactory;
+
 
 public class ComanndShellby_help implements MessageCreateListener {
-    ConfigAll config = new ConfigAll();
-
 
     @Override
     public void onMessageCreate(MessageCreateEvent event) {
         Message message = event.getMessage();
         ConfigAll config = new ConfigAll();
-        String help = "help";
+        MainVoid api_bot = new MainVoid();
         //HELP MENU
 
-        if (config.getBot_menu().equals("normal")){
+        if (config.getBot_menu().equals("normal") ){
         if (message.getContent().equalsIgnoreCase("-shh help")) {
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()
                             .setTitle("Shellby Helper Menu")
-                            .setDescription("**Reverse Shell :)** \n"
+                            .setDescription("**Reverse Shell  ** \n"
                             + "\n"
                             + "**-shh bash**" + "   Some versions of bash can send you a reverse shell\n "
                             + "**-shh perl**" + "   Perl Reverse Shell\n"
@@ -35,10 +37,10 @@ public class ComanndShellby_help implements MessageCreateListener {
                             + "**-shh Netcat**" + "  Netcat Reverse Shell\n"
                             + "**-shh Java**" + "  Java Reverse Shell\n"
                             + "\n"
-                            + "**Info Comands**\n"
+                            + "**Info Comands** \n"
                             + "\n"
                             + "**-shh invite**" + "  Give you a invite link\n"
-                            + "**-shh autor**" + "  My father info\n"
+                            + "**-shh status**" + "  My father info\n"
                             )
                             .setTimestampToNow()
                             .setFooter("Shellby Helper")
@@ -53,24 +55,35 @@ public class ComanndShellby_help implements MessageCreateListener {
         else {
             new MessageBuilder()
             .setEmbed(new EmbedBuilder()
-                    .setTitle("ERROR")
+                    .setTitle("**ERROR**")
                     .setDescription("No definne shellby menu settings \n"
                     )
                     .setTimestampToNow()
                     .setFooter("Shellby Helper")
                     .setColor(new Color(163, 22, 48)))
                     .send(event.getChannel()).join();
-        }
+        };
 
-        if (message.getContent().equalsIgnoreCase("-shh autor")) {
+        if (message.getContent().equalsIgnoreCase("-shh status")) {
+            //time convert uptime
+            OperatingSystemMXBean os_info = ManagementFactory.getPlatformMXBean(OperatingSystemMXBean.class);
+
+
+            //embded message
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()
-                            .setTitle("Autor")
-                            .setDescription("Autor is Daskama. ")
+                            .setTitle("**Bot Information**")
+                            .addField("**Developer**", "```Daskama#2967```",true)
+                            .addField("**Bot Version**", "```0.5```",false)
+                            .addField("**Java Version**", "```1.8```",false)
+                            .addField("**Cpu Usage **", "" + os_info.getProcessCpuLoad(),true)
+                            .addField("**Bot Create **", "```29/07/2020```" ,true)
                             .setColor(new Color(27, 113, 158)))
                     .send(event.getChannel());
 
-        }
+        };
+
+
 
     }
 }

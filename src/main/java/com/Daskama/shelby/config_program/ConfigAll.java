@@ -10,16 +10,16 @@ public class ConfigAll {
     private static String token_shellby ;
     private static String Activity;
     private static String bot_menu;
-
+    private static String admin_role;
 
     public void initconfig(){
         Properties prop = new Properties();
-        try(InputStream fis = new FileInputStream("src/main/resources/config.properties")) {
+        try(InputStream fis = new FileInputStream("config/config.properties")) {
             prop.load(fis);
             token_shellby = prop.getProperty("Bot_Token");
             Activity = prop.getProperty("Bot_Activity");
             bot_menu = prop.getProperty("Bot_Menu");
-
+            admin_role = prop.getProperty("Admin_role");
             //create a INVITE URL
 
         }
@@ -32,6 +32,10 @@ public class ConfigAll {
     }
 //GET METODY
 
+
+    public static String getAdmin_role() {
+        return admin_role;
+    }
 
     public static String getBot_menu() {
         return bot_menu;

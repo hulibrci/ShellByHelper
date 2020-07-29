@@ -1,16 +1,16 @@
 
-q
-java:S1192"ODefine a constant instead of duplicating this literal "Shellby Helper" 5 times.(Œ¿ÉÚûÿÿÿÿ8·ş¼•·.
 >
-java:S1116,"Remove this empty statement.(ôŸìúÿÿÿÿ8½†»•·.
->
-java:S1116F"Remove this empty statement.(ôŸìúÿÿÿÿ8·ş¼•·.
->
-java:S11169"Remove this empty statement.(ôŸìúÿÿÿÿ8·ş¼•·.
->
-java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8¡õ²•·.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Š—­Ôûÿÿÿÿ
+java:S1116P"Remove this empty statement.(ôŸìúÿÿÿÿ8·ş¼•·.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
 >
-java:S1116S"Remove this empty statement.(ôŸìúÿÿÿÿ8·ş¼•·.
+java:S11166"Remove this empty statement.(ôŸìúÿÿÿÿ8·ş¼•·.
+>
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8¡õ²•·.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Š—­Ôûÿÿÿÿ
 r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‡çÉúÿÿÿÿ8Àò»•·.
+>
+java:S1116)"Remove this empty statement.(ôŸìúÿÿÿÿ8½†»•·.
+q
+java:S1192"ODefine a constant instead of duplicating this literal "Shellby Helper" 5 times.(Œ¿ÉÚûÿÿÿÿ8·ş¼•·.
+>
+java:S1116C"Remove this empty statement.(ôŸìúÿÿÿÿ8·ş¼•·.

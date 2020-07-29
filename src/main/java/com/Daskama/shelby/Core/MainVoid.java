@@ -8,6 +8,7 @@ import org.javacord.api.DiscordApi;
 import org.javacord.api.DiscordApiBuilder;
 import org.javacord.api.util.logging.FallbackLoggerConfiguration;
 
+
 //COLOR
 
 
@@ -15,7 +16,7 @@ import org.javacord.api.util.logging.FallbackLoggerConfiguration;
 public class MainVoid {
 
     private static String INVITE_URL ;
-
+    private static long update_bots;
 
     public static void main(String[] args) {
         //Config
@@ -27,33 +28,46 @@ public class MainVoid {
                 .setToken(config.getToken_shellby())
                 .login()
                 .join();
-        
+        /**
+        // UPTIME
+        RuntimeMXBean rb = ManagementFactory.getRuntimeMXBean();
+        update_bots = rb.getUptime();
+
+        CONVERT UPTIME TU TIME REAL
+        Date date = new Date(update_bots);
+        DateFormat date_formater = new SimpleDateFormat("HH:mm:ss:SSS Z");
+        date_formater.setTimeZone(TimeZone.getTimeZone("UTC"));
+        String finnal_time = date_formater.format(date);
+         **/
+
         //DEBUGING
         FallbackLoggerConfiguration.setDebug(true);
         FallbackLoggerConfiguration.setTrace(true);
 
         //LOGO
         System.out.println( "#---------------------------------------------------------------------------#");
-        System.out.println( "ShellBy_Helper v 0.0.4 is now ONLINE" );
+        System.out.println( "ShellBy_Helper v 0.1.0 is now ONLINE" );
         System.out.println( "Developer : Daskama" );
         System.out.println("You can invite the bot by using the following url: " + api.createBotInvite());
         System.out.println("#---------------------------------------------------------------------------#");
         //ulozi invite string
         INVITE_URL = api.createBotInvite();
-        //prikazy napise
+        //command lissener
         api.addListener(new ComanndShellby_help());
         api.addListener(new ComanndShellby_reverseshells());
         api.addListener(new ComanndShellby_invite());
         //activity
         api.updateActivity(config.getActivity());
-
         //log a mesage to join leave bot
         api.addServerJoinListener(event -> System.out.println("Joined server " + event.getServer().getName()));
         api.addServerLeaveListener(event -> System.out.println("Left server " + event.getServer().getName()));
 
     }
-    //geter pre String invite
 
+
+
+
+    //getter invite url
     public static String getInviteUrl() {
         return INVITE_URL;
     }

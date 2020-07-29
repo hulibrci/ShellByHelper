@@ -1,13 +1,24 @@
 
-F
-java:S1481")Remove this unused "help" local variable.(ûÚÒµ8ÑÏ·¿·.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
-U
-java:S1854"8Remove this useless assignment to local variable "help".(ûÚÒµ8ÑÏ·¿·.
->
-java:S1116,"Remove this empty statement.(ôŸìúÿÿÿÿ8äí€à¶.
 W
-java:S1854":Remove this useless assignment to local variable "config".(™…†8ÑÏ·¿·.
+java:S1191"5Use classes from the Java API instead of Sun classes.(ŒÄœ”ıÿÿÿÿ8±†Òß¹.
+>
+java:S1116T"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
+R
+java:S22094"5Change this instance-reference to a static reference.(œœîƒ8ùş„£¹.
+E	java:S1084")Either remove or fill this block of code.(œœîƒ8ùş„£¹.
+R
+java:S2209"5Change this instance-reference to a static reference.(€Âø8ùş„£¹.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
+N
+java:S1481",Remove this unused "api_bot" local variable.(Û´­Úşÿÿÿÿ8«…¸ß¹.
+m	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÕà8ØîÙß¹.
 o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
-H
-java:S1481"+Remove this unused "config" local variable.(™…†8ÑÏ·¿·.
+>
+java:S11162"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
+J
+java:S2440"(Remove this instantiation of "MainVoid".(Û´­Úşÿÿÿÿ8µÁ¯ß¹.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û´­Úşÿÿÿÿ8‘–¯ß¹.
+]
+java:S1854";Remove this useless assignment to local variable "api_bot".(Û´­Úşÿÿÿÿ8«…¸ß¹.
+>
+java:S1116A"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
