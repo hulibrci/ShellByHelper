@@ -24,3 +24,4 @@ hs_err_pid*
 *.properties
 config/config.properties
 config/config.properties
+*.properties
