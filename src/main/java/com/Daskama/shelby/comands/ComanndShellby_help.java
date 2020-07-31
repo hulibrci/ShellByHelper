@@ -8,12 +8,15 @@ import org.javacord.api.entity.message.embed.EmbedBuilder;
 import org.javacord.api.event.message.MessageCreateEvent;
 import org.javacord.api.listener.message.MessageCreateListener;
 
-import com.sun.management.OperatingSystemMXBean;
+
 import java.awt.*;
 import java.lang.management.ManagementFactory;
+import java.lang.management.RuntimeMXBean;
 
 
 public class ComanndShellby_help implements MessageCreateListener {
+    //uptime storage
+    private static long update_bots;
 
     @Override
     public void onMessageCreate(MessageCreateEvent event) {
@@ -27,7 +30,7 @@ public class ComanndShellby_help implements MessageCreateListener {
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()
                             .setTitle("Shellby Helper Menu")
-                            .setDescription("**Reverse Shell  ** \n"
+                            .setDescription("**Reverse Shell Linux ** \n"
                             + "\n"
                             + "**-shh bash**" + "   Some versions of bash can send you a reverse shell\n "
                             + "**-shh perl**" + "   Perl Reverse Shell\n"
@@ -36,6 +39,7 @@ public class ComanndShellby_help implements MessageCreateListener {
                             + "**-shh ruby**"+ "  Ruby Reverse Shell\n"
                             + "**-shh Netcat**" + "  Netcat Reverse Shell\n"
                             + "**-shh Java**" + "  Java Reverse Shell\n"
+                            + "**-shh Ncat**" + "  Ncat Reverse Shell\n"
                             + "\n"
                             + "**Info Comands** \n"
                             + "\n"
@@ -65,9 +69,12 @@ public class ComanndShellby_help implements MessageCreateListener {
         };
 
         if (message.getContent().equalsIgnoreCase("-shh status")) {
-            //time convert uptime
-            OperatingSystemMXBean os_info = ManagementFactory.getPlatformMXBean(OperatingSystemMXBean.class);
 
+            //Uptime
+            RuntimeMXBean rb = ManagementFactory.getRuntimeMXBean();
+            update_bots = rb.getUptime();
+
+           String uptime_string = String.format("```%d```",update_bots);
 
             //embded message
             new MessageBuilder()
@@ -76,8 +83,9 @@ public class ComanndShellby_help implements MessageCreateListener {
                             .addField("**Developer**", "```Daskama#2967```",true)
                             .addField("**Bot Version**", "```0.5```",false)
                             .addField("**Java Version**", "```1.8```",false)
-                            .addField("**Cpu Usage **", "" + os_info.getProcessCpuLoad(),true)
                             .addField("**Bot Create **", "```29/07/2020```" ,true)
+                            .addField("**Uptime **", uptime_string ,true)
+                            .addField("**Source Code Github **", "```https://github.com/hulibrci/ShellByHelper```" ,true)
                             .setColor(new Color(27, 113, 158)))
                     .send(event.getChannel());
 

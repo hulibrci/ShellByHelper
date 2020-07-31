@@ -16,7 +16,7 @@ import org.javacord.api.util.logging.FallbackLoggerConfiguration;
 public class MainVoid {
 
     private static String INVITE_URL ;
-    private static long update_bots;
+
 
     public static void main(String[] args) {
         //Config
@@ -28,17 +28,9 @@ public class MainVoid {
                 .setToken(config.getToken_shellby())
                 .login()
                 .join();
-        /**
-        // UPTIME
-        RuntimeMXBean rb = ManagementFactory.getRuntimeMXBean();
-        update_bots = rb.getUptime();
 
-        CONVERT UPTIME TU TIME REAL
-        Date date = new Date(update_bots);
-        DateFormat date_formater = new SimpleDateFormat("HH:mm:ss:SSS Z");
-        date_formater.setTimeZone(TimeZone.getTimeZone("UTC"));
-        String finnal_time = date_formater.format(date);
-         **/
+
+
 
         //DEBUGING
         FallbackLoggerConfiguration.setDebug(true);

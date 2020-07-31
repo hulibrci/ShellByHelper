@@ -16,10 +16,11 @@ public class ComanndShellby_invite implements MessageCreateListener {
         MainVoid voidinvite = new MainVoid();
         if (shellby_invite.getContent().equalsIgnoreCase("-shh invite")) {
 
+            String invite_string = String.format("```%s```",voidinvite.getInviteUrl());
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()
                             .setTitle("Invite menu")
-                            .setDescription("You can invite the bot by using the following url: \n" + voidinvite.getInviteUrl())
+                            .setDescription("You can invite the bot by using the following url: \n " + invite_string )
                             .setTimestampToNow()
                             .setFooter("Shellby Helper")
                             .setColor(new Color(27, 113, 158)))
