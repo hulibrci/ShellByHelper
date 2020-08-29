@@ -1,25 +1,25 @@
 
-X
-java:S2696"6Make the enclosing method "static" or remove this set.(é¾¤™şÿÿÿÿ8Æıå¡¹.
 o	java:S1000"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ğïõàúÿÿÿÿ8Æıå¡¹.
-u
-java:S3008"SRename this field "Activity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èŸ­£ÿÿÿÿÿ8»ó“Ü·.
-r
-java:S3008"URename this field "admin_role" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Èí8Æıå¡¹.
-t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¾èÇşÿÿÿÿ
 X
 java:S2696"6Make the enclosing method "static" or remove this set.(™Ş‚èúÿÿÿÿ8Ü…ç¡¹.
-R
-java:S2696"6Make the enclosing method "static" or remove this set.(õ‡àK8Æıå¡¹.
-o	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø§°ûÿÿÿÿ8Ğ±¯Ì¹.
-p
-java:S3008"SRename this field "bot_menu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÆÁè8Óë±Œ¹.
+r
+java:S3008"URename this field "admin_role" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(€Èí8Æıå¡¹.
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(óı¤Ÿúÿÿÿÿ8Æıå¡¹.
+S
+java:S2696"6Make the enclosing method "static" or remove this set.(ä±ö8Æıå¡¹.
+X
+java:S2696"6Make the enclosing method "static" or remove this set.(é¾¤™şÿÿÿÿ8Æıå¡¹.
 j	java:S100("NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¨óúÁ8Æıå¡¹.
 8
 java:S3626"Remove this redundant jump.(ûÁİ…8Æıå¡¹.
-S
-java:S2696"6Make the enclosing method "static" or remove this set.(ä±ö8Æıå¡¹.
-Z	java:S106"9Replace this use of System.out or System.err by a logger.(óı¤Ÿúÿÿÿÿ8Æıå¡¹.
+o	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ø§°ûÿÿÿÿ8Ğ±¯Ì¹.
+u
+java:S3008"SRename this field "Activity" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(èŸ­£ÿÿÿÿÿ8»ó“Ü·.
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ò¾èÇşÿÿÿÿ
 u
 java:S3008
 "XRename this field "token_shellby" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÆÍƒˆ8–¸Ú±·.
+p
+java:S3008"SRename this field "bot_menu" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡ÆÁè8Óë±Œ¹.
+R
+java:S2696"6Make the enclosing method "static" or remove this set.(õ‡àK8Æıå¡¹.

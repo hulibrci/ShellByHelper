@@ -1,24 +1,28 @@
 
+s
+java:S3008"VRename this field "update_bots" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êæâÇ8ÉØğ¯º.
 ]
-java:S1854";Remove this useless assignment to local variable "api_bot".(Û´­Úşÿÿÿÿ8«…¸ß¹.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û´­Úşÿÿÿÿ8‘–¯ß¹.
+java:S1854";Remove this useless assignment to local variable "api_bot".(Û´­Úşÿÿÿÿ8«…¸ß¹.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û´­Úşÿÿÿÿ8‘–¯ß¹.
 >
-java:S1116T"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
+java:S11166"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
+R
+java:S2209"5Change this instance-reference to a static reference.(€Âø8ùş„£¹.
+w
+java:S1450"ZRemove the "update_bots" field and declare it as a local variable in the relevant methods.(êæâÇ8ÉØğ¯º.
+X
+java:S2696K"6Make the enclosing method "static" or remove this set.(Óø³ëøÿÿÿÿ8ÉØğ¯º.
 N
-java:S1481",Remove this unused "api_bot" local variable.(Û´­Úşÿÿÿÿ8«…¸ß¹.
-m	java:S117E"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÄÕà8ØîÙß¹.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
-R
-java:S2209"5Change this instance-reference to a static reference.(€Âø8ùş„£¹.
+java:S1481",Remove this unused "api_bot" local variable.(Û´­Úşÿÿÿÿ8«…¸ß¹.
+>
+java:S1116E"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
 J
-java:S2440"(Remove this instantiation of "MainVoid".(Û´­Úşÿÿÿÿ8µÁ¯ß¹.
->
-java:S11162"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
->
-java:S1116A"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
-W
-java:S1191"5Use classes from the Java API instead of Sun classes.(ŒÄœ”ıÿÿÿÿ8±†Òß¹.
-E	java:S1084")Either remove or fill this block of code.(œœîƒ8ùş„£¹.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+java:S2440"(Remove this instantiation of "MainVoid".(Û´­Úşÿÿÿÿ8µÁ¯ß¹.
 R
-java:S22094"5Change this instance-reference to a static reference.(œœîƒ8ùş„£¹.
+java:S22098"5Change this instance-reference to a static reference.(œœîƒ8ùş„£¹.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+r	java:S117M"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚çÀÏùÿÿÿÿ8Çóš°º.
+E	java:S1088")Either remove or fill this block of code.(œœîƒ8ùş„£¹.
+>
+java:S1116\"Remove this empty statement.(ôŸìúÿÿÿÿ8æüñ¯º.

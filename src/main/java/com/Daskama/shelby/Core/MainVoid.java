@@ -39,7 +39,7 @@ public class MainVoid {
         //LOGO
         System.out.println( "#---------------------------------------------------------------------------#");
         System.out.println( "ShellBy_Helper v 0.1.0 is now ONLINE" );
-        System.out.println( "Developer : Daskama" );
+        System.out.println( "Developer : Daskama#2967" );
         System.out.println("You can invite the bot by using the following url: " + api.createBotInvite());
         System.out.println("#---------------------------------------------------------------------------#");
         //ulozi invite string
