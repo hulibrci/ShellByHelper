@@ -19,3 +19,5 @@ x
 Hsrc/main/java/com/Daskama/shelby/comands/ComanndShellby_admincomand.java,e\b\ebddeebdf64bdff6dfac0de60f4062126e2c5ffb
 H
 config/config.properties,5\5\55e705ec8a54331429362d69200c4d6bffa6d570
+u
+Esrc/main/java/com/Daskama/shelby/comands/ComanndShellby_tutorial.java,f\9\f98b74548118f0eb1dc03f08499096c296c32e73
