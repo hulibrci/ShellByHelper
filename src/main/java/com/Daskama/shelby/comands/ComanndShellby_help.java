@@ -56,7 +56,7 @@ public class ComanndShellby_help implements MessageCreateListener {
 
         };
         }
-        else if (config.getBot_menu().equals("rolette")){
+        else if (config.getBot_menu().equals("default")){
             if (message.getContent().equalsIgnoreCase("-shh help")) {
                 MessageAuthor author = event.getMessage().getAuthor();
               long id_saved = author.getId();

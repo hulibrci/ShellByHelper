@@ -1,35 +1,27 @@
 
-R
-java:S2209;"5Change this instance-reference to a static reference.(œœîƒ8šµÿÿÃ.
-w
-java:S1450"ZRemove the "update_bots" field and declare it as a local variable in the relevant methods.(êæâÇ8ÉØğ¯º.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
 r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¸©¶Ä.
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Âú8‡¹†ŸÄ.
-|
-java:S1192B"_Define a constant instead of duplicating this literal "\uD83D\uDC68\u200D\uD83D\uDCBB" 4 times.(ºÃÓÄ8É¸¬Ä.
-q
-java:S11925"ODefine a constant instead of duplicating this literal "Shellby Helper" 4 times.(Œ¿ÉÚûÿÿÿÿ8˜ñŸûÃ.
-f
-java:S1192D"IDefine a constant instead of duplicating this literal "Tutorial" 3 times.(êìåš8ßÿ¾ÔÄ.
-j
-java:S1192D"MDefine a constant instead of duplicating this literal "\uD83E\uDD16" 6 times.(êìåš8üÛ¬Ä.
-R
-java:S2209"5Change this instance-reference to a static reference.(€Âø8šµÿÿÃ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
+Y
+java:S2696™"6Make the enclosing method "static" or remove this set.(Óø³ëøÿÿÿÿ8§ÜÒÿÃ.
+m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Š£Ğ8šµÿÿÃ.
 >
 java:S11169"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
-j
-java:S1192C"MDefine a constant instead of duplicating this literal "\u2139\uFE0F" 4 times.(Ÿ­ÊÚ8œš¬Ä.
+W
+java:S2209;"5Change this instance-reference to a static reference.(ºï¨Õúÿÿÿÿ8šµÿÿÃ.
+q
+java:S11925"ODefine a constant instead of duplicating this literal "Shellby Helper" 4 times.(Œ¿ÉÚûÿÿÿÿ8˜ñŸûÃ.
 ?
-java:S1116”"Remove this empty statement.(ôŸìúÿÿÿÿ8§ÜÒÿÃ.
+java:S1116“"Remove this empty statement.(ôŸìúÿÿÿÿ8§ÜÒÿÃ.
+R
+java:S2209"5Change this instance-reference to a static reference.(€Âø8šµÿÿÃ.
+U	java:S106’"9Replace this use of System.out or System.err by a logger.(üùî.8ÿ™’¬Ä.
 ?
-java:S1116«"Remove this empty statement.(ôŸìúÿÿÿÿ8§ÜÒÿÃ.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
-Y
-java:S2696š"6Make the enclosing method "static" or remove this set.(Óø³ëøÿÿÿÿ8§ÜÒÿÃ.
-s	java:S117œ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚çÀÏùÿÿÿÿ8§ÜÒÿÃ.
-m	java:S117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Š£Ğ8šµÿÿÃ.
+java:S1116ª"Remove this empty statement.(ôŸìúÿÿÿÿ8§ÜÒÿÃ.
+w
+java:S1450"ZRemove the "update_bots" field and declare it as a local variable in the relevant methods.(êæâÇ8ÉØğ¯º.
+s	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚çÀÏùÿÿÿÿ8§ÜÒÿÃ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Âú8‡¹†ŸÄ.
 s
 java:S3008"VRename this field "update_bots" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êæâÇ8ÉØğ¯º.
-U	java:S106“"9Replace this use of System.out or System.err by a logger.(üùî.8ÿ™’¬Ä.
