@@ -4,7 +4,7 @@
 </h2>
 
 ### Overview
-It is a program (Discord Bot) that summarizes the reverse shell command.It is written in Java (Javacord 3 ) .
+It is a program (Discord Bot) that summarizes the reverse shell command (cheatsheets).It is written in Java (Javacord 3 ) .
 ### Install
 
 **Java 1.8 or OpenJDK**  
