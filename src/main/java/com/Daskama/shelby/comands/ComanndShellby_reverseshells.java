@@ -382,7 +382,7 @@ public class ComanndShellby_reverseshells implements MessageCreateListener {
 
         };
 
-        if (sprava_shell.getContent().equalsIgnoreCase("-shr telent")) {
+        if (sprava_shell.getContent().equalsIgnoreCase("-shr telnet")) {
             long id_saved = author.getId();
             new MessageBuilder()
                     .setEmbed(new EmbedBuilder()

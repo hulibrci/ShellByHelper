@@ -84,7 +84,7 @@ public class ComanndShellby_help implements MessageCreateListener {
                                                             + "**-shr perl**" + " - Perl Reverse Shell\n"
                                                             + "**-shr python**" + " - Pyhon 2.7 UP Reverse Shell\n"
                                                             + "**-shr ruby**"+ " - Ruby Reverse Shell\n"
-                                                            + "**-shr telent**"+ " - Telnet Reverse Shell\n"+
+                                                            + "**-shr telnet**"+ " - Telnet Reverse Shell\n"+
                                                     "\n")
                                     );
 
