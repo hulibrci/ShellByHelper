@@ -17,3 +17,5 @@ It is a program (Discord Bot) that summarizes the reverse shell command (cheatsh
 
 ### Photos
 <a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/iAJMZ9G.png"></a>
+<a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/AUrDAeJ.png"></a>
+<a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/jHdA7ZW.png"></a>
