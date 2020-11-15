@@ -1,21 +1,24 @@
-<h2 align="center">
-  <br>
-  <a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/3bxwlJ5.jpg"></a>
-</h2>
+![menu](https://i.imgur.com/3bxwlJ5.jpg)
+
+
+[Steam](https://steamcommunity.com/id/19992110) **|** [Website](https://www.hulibrci.wtf/) **|** [discord](https://discord.gg/Xzd83yK) **|**
 
 ### Overview
 It is a program (Discord Bot) that summarizes the reverse shell command (cheatsheets).It is written in Java (Javacord 3 ) .
-### Install
 
-**Java 1.8 or OpenJDK**  
+# Installation
+- Java 1.8 or OpenJDK
+- Download (zip) : [releases](https://github.com/hulibrci/ShellByHelper/releases) 
+- Edit config (`/config/config.properties `) (Token ,etc ..)
+- run (`java -jar ShelbyHelper.jar`) 
 
-**Download (zip) :** https://github.com/hulibrci/ShellByHelper/releases
+# Donations
 
-**Edit Config :**  /config/config.properties  (Token ,etc ..)
+Help me make free update [donating](https://www.paypal.com/paypalme/Hulibrci) and you will get access to fast support and earlier update .
 
-**Run :** ```java -jar ShelbyHelper.jar```
 
-### Photos
-<a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/iAJMZ9G.png"></a>
-<a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/AUrDAeJ.png"></a>
-<a href="https://github.com/hulibrci/ShellByHelper"><img src="https://i.imgur.com/jHdA7ZW.png"></a>
+# Gallery
+![some](https://i.imgur.com/iAJMZ9G.png)
+![some2](https://i.imgur.com/AUrDAeJ.png)
+![some3](https://i.imgur.com/jHdA7ZW.png)
+
