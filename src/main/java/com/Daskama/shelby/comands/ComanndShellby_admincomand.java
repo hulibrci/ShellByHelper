@@ -10,7 +10,16 @@ public class ComanndShellby_admincomand implements MessageCreateListener {
     public void onMessageCreate(MessageCreateEvent event) {
         Message admin_message = event.getMessage();
         ConfigAll config = new ConfigAll();
+
         if (admin_message.getContent().equalsIgnoreCase("-shh admin") ){
+            long owner =  admin_message.getServer().get().getOwner().get().getId();
+
+            if (owner ==  admin_message.getAuthor().getId()){
+
+
+            }else {
+
+            }
 
         }
     }

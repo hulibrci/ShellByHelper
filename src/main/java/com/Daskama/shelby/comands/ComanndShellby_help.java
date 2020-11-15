@@ -30,24 +30,28 @@ public class ComanndShellby_help implements MessageCreateListener {
                     .setEmbed(new EmbedBuilder()
                             .setTitle("Shellby Helper Menu")
                             .setDescription("**Reverse Shell Linux ** \n"
-                                            + "\n"
-                                            + "**-shr bash**" + " - Bash Reverse Shell\n "
-                                            + "**-shr java**" + " - Java Reverse Shell\n"
-                                            + "**-shr netcat**" + " - Netcat Reverse Shell\n"
-                                            + "**-shr ncat**" + " - Ncat Reverse Shell\n"
-                                            + "**-shr perl**" + " - Perl Reverse Shell\n"
-                                            + "**-shr python**" + " - Pyhon 2.7 UP Reverse Shell\n"
-                                            + "**-shr ruby**"+ " - Ruby Reverse Shell\n"
-                                            + "**-shr telent**"+ " - Telnet Reverse Shell\n"
-                                            + "\n"
-                                            + "**Info Comands** \n"
-                                            + "\n"
-                                            + "**-shh invite**" + "  Give you a invite link\n"
-                                            + "**-shh status**" + "  My father info\n"
-                                            + "\n"
-                                            + "**Tutorial** \n"
-                                            + "\n"
-                                            + "**-sht netcat**" + "  Start it :) \n"
+                                    + "\n"
+                                    + "**-shr bash**" + " - Bash Reverse Shell\n "
+                                    + "**-shr java**" + " - Java Reverse Shell\n"
+                                    + "**-shr netcat**" + " - Netcat Reverse Shell\n"
+                                    + "**-shr ncat**" + " - Ncat Reverse Shell\n"
+                                    + "**-shr perl**" + " - Perl Reverse Shell\n"
+                                    + "**-shr python**" + " - Pyhon 2.7 UP Reverse Shell\n"
+                                    + "**-shr ruby**"+ " - Ruby Reverse Shell\n"
+                                    + "**-shr telent**"+ " - Telnet Reverse Shell\n"
+                                    + "\n"
+                                    + "**Info Comands** \n"
+                                    + "\n"
+                                    + "**-shh invite**" + "  Give you a invite link\n"
+                                    + "**-shh status**" + "  My father info\n"
+                                    + "**Info Comands** \n"
+                                    + "\n"
+                                    + "**-shh invite**" + "  Give you a invite link\n"
+                                    + "**-shh status**" + "  My father info\n"
+                                    + "\n"
+                                    + "**Tutorial** \n"
+                                    + "\n"
+                                    + "**-sht netcat**" + "  Start it :) \n"
                             )
                             .setTimestampToNow()
                             .setFooter("Shellby Helper")
@@ -59,7 +63,9 @@ public class ComanndShellby_help implements MessageCreateListener {
         else if (config.getBot_menu().equals("default")){
             if (message.getContent().equalsIgnoreCase("-shh help")) {
                 MessageAuthor author = event.getMessage().getAuthor();
-              long id_saved = author.getId();
+                long id_saved = author.getId();
+
+
                 new MessageBuilder()
                         .setEmbed(new EmbedBuilder()
                                 .setTitle("**Shellby Helper Menu**")
@@ -72,9 +78,8 @@ public class ComanndShellby_help implements MessageCreateListener {
                         .send(event.getChannel())
                         .thenAccept(message_new -> {
                             message_new.addReactionAddListener(reactionEvent -> {
-
                                 //reaction 👨‍💻 (reverse shell )
-                                if (reactionEvent.getEmoji().equalsEmoji("\uD83D\uDC68\u200D\uD83D\uDCBB") && reactionEvent.getUser().getId() == id_saved  ) {
+                                if (reactionEvent.getEmoji().equalsEmoji("\uD83D\uDC68\u200D\uD83D\uDCBB") && reactionEvent.getUserId() == id_saved) {
                                     reactionEvent.editMessage( new EmbedBuilder()
                                             .setTitle("**Reverse Shell Linux \uD83D\uDC68\u200D\uD83D\uDCBB**")
                                             .setDescription( "**-shr bash**" +  " - Bash Reverse Shell\n "
@@ -89,8 +94,7 @@ public class ComanndShellby_help implements MessageCreateListener {
                                     );
 
 
-
-                        } else if (reactionEvent.getEmoji().equalsEmoji("\u2139\uFE0F") && reactionEvent.getUser().getId() == id_saved ) {
+                        } else if (reactionEvent.getEmoji().equalsEmoji("\u2139\uFE0F")  && reactionEvent.getUserId() == id_saved) {
 
                                     reactionEvent.editMessage( new EmbedBuilder()
                                             .setTitle("**Info Comands \u2139\uFE0F **")
@@ -98,8 +102,9 @@ public class ComanndShellby_help implements MessageCreateListener {
                                                             +"**-shh status**" + " - Bot info\n" +
                                                     "\n")
                                     );
+
                         }// emoji 🤖 to a tutorial
-                                else if (reactionEvent.getEmoji().equalsEmoji("\uD83E\uDD16") && reactionEvent.getUser().getId() == id_saved  )
+                                else if (reactionEvent.getEmoji().equalsEmoji("\uD83E\uDD16")&& reactionEvent.getUserId() == id_saved)
                                 {
                                     reactionEvent.editMessage( new EmbedBuilder()
                                             .setTitle("**Tutorials \uD83E\uDD16**")
@@ -108,7 +113,7 @@ public class ComanndShellby_help implements MessageCreateListener {
                                     );
 
                                 }//home button
-                                else if (reactionEvent.getEmoji().equalsEmoji("\uD83C\uDFE0") && reactionEvent.getUser().getId() == id_saved  )
+                                else if (reactionEvent.getEmoji().equalsEmoji("\uD83C\uDFE0")&& reactionEvent.getUserId() == id_saved)
                                 {
                                     reactionEvent.editMessage(new EmbedBuilder()
                                             .setTitle("**Shellby Helper Menu**")
@@ -122,7 +127,7 @@ public class ComanndShellby_help implements MessageCreateListener {
                                     );
 
                                 }
-                    }).removeAfter(15, TimeUnit.MINUTES);
+                    }).removeAfter(config.getTime_eventer_int() , TimeUnit.MINUTES);
 
                             message_new.addReactions("\uD83D\uDC68\u200D\uD83D\uDCBB");  //👨‍💻
                             message_new.addReactions("\u2139\uFE0F"); //ℹ️
@@ -161,7 +166,7 @@ public class ComanndShellby_help implements MessageCreateListener {
                             .addField("**Developer**", "```Daskama#2967```",true)
                             .addField("**Bot Version**", "```0.6```",false)
                             .addField("**Java Version**", "```1.8```",false)
-                            .addField("**Bot Update **", "```30/08/2020```" ,true)
+                            .addField("**Bot Update **", "```15/11/2020```" ,true)
                             .addField("**Uptime **", uptime_string ,true)
                             .addField("**Source Code Github **", "```https://github.com/hulibrci/ShellByHelper```" ,true)
                             .setColor(new Color(27, 113, 158)))

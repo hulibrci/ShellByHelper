@@ -12,9 +12,8 @@ repositories {
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.12'
 }
-dependencies {
-    implementation 'org.javacord:javacord:3.0.6'
-}
+repositories { mavenCentral() }
+dependencies { implementation 'org.javacord:javacord:3.1.1' }
 
 dependencies {
     compile 'com.vdurmont:emoji-java:5.1.1'
@@ -25,9 +24,9 @@ dependencies {
     compile 'org.jsoup:jsoup:1.13.1'
 }
 
-dependencies {
-    runtimeOnly 'org.apache.logging.log4j:log4j-to-slf4j:2.11.0'
-    runtimeOnly 'ch.qos.logback:logback-classic:1.2.3'
-}
+
 dependencies { implementation 'net.kautler:command-framework:0.3.0' }
 
+dependencies {
+    compile group: 'mysql', name: 'mysql-connector-java', version: '5.1.21'
+}
