@@ -1,27 +1,27 @@
 
-s	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚çÀÏùÿÿÿÿ8§ÜÒÿÃ.
-r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¸©¶Ä.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
 w
 java:S1450"ZRemove the "update_bots" field and declare it as a local variable in the relevant methods.(êæâÇ8ÉØğ¯º.
-o
-java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Âú8‡¹†ŸÄ.
->
-java:S11169"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
-s
-java:S3008"VRename this field "update_bots" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êæâÇ8ÉØğ¯º.
-n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
+U	java:S106’"9Replace this use of System.out or System.err by a logger.(üùî.8ÿ™’¬Ä.
 ?
 java:S1116“"Remove this empty statement.(ôŸìúÿÿÿÿ8§ÜÒÿÃ.
-W
-java:S2209;"5Change this instance-reference to a static reference.(ºï¨Õúÿÿÿÿ8šµÿÿÃ.
-Y
-java:S2696™"6Make the enclosing method "static" or remove this set.(Óø³ëøÿÿÿÿ8§ÜÒÿÃ.
-m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Š£Ğ8šµÿÿÃ.
 R
 java:S2209"5Change this instance-reference to a static reference.(€Âø8šµÿÿÃ.
-U	java:S106’"9Replace this use of System.out or System.err by a logger.(üùî.8ÿ™’¬Ä.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+W
+java:S2209;"5Change this instance-reference to a static reference.(ºï¨Õúÿÿÿÿ8šµÿÿÃ.
 q
 java:S11925"ODefine a constant instead of duplicating this literal "Shellby Helper" 4 times.(Œ¿ÉÚûÿÿÿÿ8˜ñŸûÃ.
 ?
 java:S1116ª"Remove this empty statement.(ôŸìúÿÿÿÿ8§ÜÒÿÃ.
+s	java:S117›"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‚çÀÏùÿÿÿÿ8§ÜÒÿÃ.
+n	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ââˆÇùÿÿÿÿ8¿¢¸•·.
+s
+java:S3008"VRename this field "update_bots" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êæâÇ8ÉØğ¯º.
+Y
+java:S2696™"6Make the enclosing method "static" or remove this set.(Óø³ëøÿÿÿÿ8§ÜÒÿÃ.
+m	java:S117I"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹Š£Ğ8šµÿÿÃ.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 20 to the 15 allowed.(Âú8‡¹†ŸÄ.
+>
+java:S11169"Remove this empty statement.(ôŸìúÿÿÿÿ8ùş„£¹.
+r	java:S117>"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¸©¶Ä.

@@ -1,16 +1,16 @@
 
-Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Œ„Éëûÿÿÿÿ8¿ëàÛ·.
 R
 java:S2209&"5Change this instance-reference to a static reference.(ï¥ªŞ8¡‰ê¤Ä.
-Z	java:S106."9Replace this use of System.out or System.err by a logger.(çíí“øÿÿÿÿ8´Ÿµ¿·.
-W
-java:S2209:"5Change this instance-reference to a static reference.(ğ²Üîúÿÿÿÿ8¡‰ê¤Ä.
-Z	java:S106="9Replace this use of System.out or System.err by a logger.(Á Şğüÿÿÿÿ8Š¹—á·.
-T	java:S106<"9Replace this use of System.out or System.err by a logger.(˜ÃS8¡‰ê¤Ä.
-u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´”¬v8´Ÿµ¿·.
-Z	java:S1060"9Replace this use of System.out or System.err by a logger.(×€ºüÿÿÿÿ8º«°ß·.
-Z	java:S1061"9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8´Ÿµ¿·.
-X	java:S125A"<This block of commented-out lines of code should be removed.(åÔ°õ8¡‰ê¤Ä.
 w
 java:S3008"URename this field "INVITE_URL" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óÓ’ùÿÿÿÿ8âì¯ß·.
+T	java:S106<"9Replace this use of System.out or System.err by a logger.(˜ÃS8¡‰ê¤Ä.
+Z	java:S106/"9Replace this use of System.out or System.err by a logger.(Œ„Éëûÿÿÿÿ8¿ëàÛ·.
+Z	java:S106="9Replace this use of System.out or System.err by a logger.(Á Şğüÿÿÿÿ8Š¹—á·.
+Z	java:S1061"9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8´Ÿµ¿·.
 Z	java:S106-"9Replace this use of System.out or System.err by a logger.(£³Ù³úÿÿÿÿ8¡‰ê¤Ä.
+W
+java:S2209:"5Change this instance-reference to a static reference.(ğ²Üîúÿÿÿÿ8¡‰ê¤Ä.
+X	java:S125A"<This block of commented-out lines of code should be removed.(åÔ°õ8¡‰ê¤Ä.
+Z	java:S106."9Replace this use of System.out or System.err by a logger.(çíí“øÿÿÿÿ8´Ÿµ¿·.
+u	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´”¬v8´Ÿµ¿·.
+Z	java:S1060"9Replace this use of System.out or System.err by a logger.(×€ºüÿÿÿÿ8º«°ß·.
