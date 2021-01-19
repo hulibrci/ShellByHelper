@@ -1,0 +1,25 @@
+
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«™›ï8´Ÿµ¿·.
+T	java:S106>"9Replace this use of System.out or System.err by a logger.(†ˆÃG8ÛÀäí.
+U	java:S106_"9Replace this use of System.out or System.err by a logger.(ÆÀûı8¢ÏÛî.
+U	java:S106n"9Replace this use of System.out or System.err by a logger.(ÆÀûı8¢ÏÛî.
+O
+java:S24402"-Remove this instantiation of "MysqlUploader".(™Û•ùÿÿÿÿ8Ò¥¥èî.
+W
+java:S2209P"5Change this instance-reference to a static reference.(ğ²Üîúÿÿÿÿ8Ò¥¥èî.
+W
+java:S2209q"5Change this instance-reference to a static reference.(é´şàøÿÿÿÿ8Ò¥¥èî.
+W
+java:S2209T"5Change this instance-reference to a static reference.(çŒİŸøÿÿÿÿ8Ò¥¥èî.
+R
+java:S22097"5Change this instance-reference to a static reference.(¶Ò Â8Å½Ëéî.
+W
+java:S2209b"5Change this instance-reference to a static reference.(é´şàøÿÿÿÿ8Ò¥¥èî.
+U	java:S106@"9Replace this use of System.out or System.err by a logger.(³ë…¨8¢ÏÛî.
+W
+java:S2209S"5Change this instance-reference to a static reference.(à˜²Êşÿÿÿÿ8Å½Ëéî.
+U	java:S106C"9Replace this use of System.out or System.err by a logger.(³ë…¨8¢ÏÛî.
+v
+java:S1450"TRemove the "mysql" field and declare it as a local variable in the relevant methods.(Œ˜øÿÿÿÿ8¢ÏÛî.
+U	java:S106;"9Replace this use of System.out or System.err by a logger.(³ë…¨8¢ÏÛî.
+T	java:S106?"9Replace this use of System.out or System.err by a logger.(ê ø?8¿ëàÛ·.

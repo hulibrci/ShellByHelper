@@ -1,0 +1,12 @@
+
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(´”¬v
+v
+java:S1450"YRemove the "voidinvite" field and declare it as a local variable in the relevant methods.(îğÁÚ8ÊåÆ½í.
+K
+java:S2209"5Change this instance-reference to a static reference.(¤î§£
+k
+java:S1450"URemove the "output" field and declare it as a local variable in the relevant methods.(ñ¬¹ª
+=
+java:S2440"(Remove this instantiation of "MainVoid".(„ÀÓH
+g
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(Ò¦Ø

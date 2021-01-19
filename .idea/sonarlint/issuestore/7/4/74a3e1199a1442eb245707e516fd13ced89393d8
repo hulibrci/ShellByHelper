@@ -1,0 +1,12 @@
+
+Y
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(ƒ­å³øÿÿÿÿ8¿âÙ¾í.
+v	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘8¿âÙ¾í.
+W
+java:S1854":Remove this useless assignment to local variable "config".(™…†Ž8¿âÙ¾í.
+8
+java:S3626"Remove this redundant jump.(ûÁÝ…8à«ŸÅí.
+H
+java:S1481"+Remove this unused "config" local variable.(™…†Ž8¿âÙ¾í.
+Y
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(ƒ­å³øÿÿÿÿ8¿âÙ¾í.

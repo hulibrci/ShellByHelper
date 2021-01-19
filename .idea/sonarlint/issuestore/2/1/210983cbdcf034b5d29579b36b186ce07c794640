@@ -1,0 +1,36 @@
+
+h
+java:S1301u"KReplace this "switch" statement by "if" statements to increase readability.(Ä„Üà8 ¼í½í.
+R
+java:S2209"5Change this instance-reference to a static reference.(õû­¬8‡ªõ„ï.
+
+java:S1488_"lImmediately return this expression instead of assigning it to the temporary variable "emptyGameStringTable".(Ò’Ä‘şÿÿÿÿ8 ¼í½í.
+R
+java:S2209"5Change this instance-reference to a static reference.(æ·ë“8‡ªõ„ï.
+P
+java:S1874B"3Remove this use of "newInstance"; it is deprecated.(Æ…ÈŸ8 ¼í½í.
+U	java:S106H"9Replace this use of System.out or System.err by a logger.(™¢Â¹8 ¼í½í.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‡™œ°
+W
+java:S2209"5Change this instance-reference to a static reference.(³Ÿ‡¡øÿÿÿÿ8‡ªõ„ï.
+Z	java:S1064"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ8 ¼í½í.
+Z	java:S106M"9Replace this use of System.out or System.err by a logger.(«–Ëˆüÿÿÿÿ8 ¼í½í.
+n
+java:S1192+"LDefine a constant instead of duplicating this literal "server_info" 3 times.(Š¨–éıÿÿÿÿ8 ¼í½í.
+O
+java:S1118
+":Add a private constructor to hide the implicit public one.(¨»Ÿ
+N	java:S106/"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+N	java:S106-"9Replace this use of System.out or System.err by a logger.(‰ºÓ¬
+>	java:S131u""Add a default case to this switch.(Ä„Üà8ğ”çî.
+P
+java:S1874'"3Remove this use of "newInstance"; it is deprecated.(Æ…ÈŸ8 ¼í½í.
+Z	java:S106N"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ8 ¼í½í.
+S	java:S1063"9Replace this use of System.out or System.err by a logger.(«–Ëˆüÿÿÿÿ
+J
+java:S4925B"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8 ¼í½í.
+J
+java:S4925'"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8 ¼í½í.
+W
+java:S2209"5Change this instance-reference to a static reference.(àÆµ›ûÿÿÿÿ8‡ªõ„ï.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(Š¨–éıÿÿÿÿ8 ¼í½í.

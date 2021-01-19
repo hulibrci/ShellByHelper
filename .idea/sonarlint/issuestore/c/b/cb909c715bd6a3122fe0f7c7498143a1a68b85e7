@@ -1,0 +1,26 @@
+
+?
+java:S1116Ô"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÈœÅí.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Âú8ÈœÅí.
+R
+java:S2209""5Change this instance-reference to a static reference.(ëîíó8ç­éî.
+Y
+java:S2696Á"6Make the enclosing method "static" or remove this set.(“„şíıÿÿÿÿ8ÈœÅí.
+U	java:S106¹"9Replace this use of System.out or System.err by a logger.(üùî.8ÈœÅí.
+q
+java:S1192@"ODefine a constant instead of duplicating this literal "Shellby Helper" 4 times.(Œ¿ÉÚûÿÿÿÿ8ÈœÅí.
+{
+java:S1450"YRemove the "updateBots" field and declare it as a local variable in the relevant methods.(¦û¥Çûÿÿÿÿ8èî°éî.
+S
+java:S2209¡"5Change this instance-reference to a static reference.(€ïé“8ç­éî.
+?
+java:S1116»"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÈœÅí.
+m
+java:S11925"PDefine a constant instead of duplicating this literal "**-shh status**" 3 times.(æ‹½´8ÈœÅí.
+>
+java:S1116E"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÈœÅí.
+W
+java:S2209F"5Change this instance-reference to a static reference.(„‚Ìúÿÿÿÿ8ç­éî.
+k
+java:S11924"PDefine a constant instead of duplicating this literal "**-shh invite**" 3 times.(İß¹“üÿÿÿÿ

@@ -2,7 +2,7 @@ plugins {
     id 'java'
 }
 
-group 'org.Daskama.shelby'
+group 'org.daskama.shelby'
 version '1.0-SNAPSHOT'
 
 repositories {

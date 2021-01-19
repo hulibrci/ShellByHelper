@@ -1,0 +1,8 @@
+
+K
+java:S2209"5Change this instance-reference to a static reference.(ÜäîÕ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+7
+java:S1116%"Remove this empty statement.(Åñ­õşÿÿÿÿ
+>
+java:S2440"(Remove this instantiation of "MainVoid".(Õ†ş

@@ -1,0 +1,38 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(íœĞşÿÿÿÿ
+J
+java:S4925"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8 ¼í½í.
+i
+java:S1192""LDefine a constant instead of duplicating this literal "server_info" 3 times.(ÂÙõ¿8 ¼í½í.
+P
+java:S18743"3Remove this use of "newInstance"; it is deprecated.(Æ…ÈŸ8 ¼í½í.
+o	java:S100G"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È§Éÿøÿÿÿÿ8 ¼í½í.
+P
+java:S2209"5Change this instance-reference to a static reference.(Ùâ¦Üùÿÿÿÿ
+h
+java:S1301V"KReplace this "switch" statement by "if" statements to increase readability.(Ä„Üà8 ¼í½í.
+P
+java:S1874"3Remove this use of "newInstance"; it is deprecated.(Æ…ÈŸ8 ¼í½í.
+P
+java:S2209"5Change this instance-reference to a static reference.(Ùâ¦Üùÿÿÿÿ
+>	java:S131V""Add a default case to this switch.(Ä„Üà8ğ”çî.
+r	java:S117G"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(È§Éÿøÿÿÿÿ8 ¼í½í.
+U	java:S106""9Replace this use of System.out or System.err by a logger.(ÂÙõ¿8 ¼í½í.
+Z	java:S106>"9Replace this use of System.out or System.err by a logger.(«–Ëˆüÿÿÿÿ8 ¼í½í.
+Z	java:S106?"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ8 ¼í½í.
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(™¢Â¹8 ¼í½í.
+
+java:S1488J"lImmediately return this expression instead of assigning it to the temporary variable "emptyGameStringTable".(Ò’Ä‘şÿÿÿÿ8 ¼í½í.
+j	java:S100S"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³¯8 ¼í½í.
+Z	java:S106+"9Replace this use of System.out or System.err by a logger.(ïù¯¯ûÿÿÿÿ8 ¼í½í.
+S	java:S106*"9Replace this use of System.out or System.err by a logger.(«–Ëˆüÿÿÿÿ
+J
+java:S2209"5Change this instance-reference to a static reference.(ººô
+J
+java:S49253"-Remove this "Class.forName()", it is useless.(Æ…ÈŸ8 ¼í½í.
+N	java:S106$"9Replace this use of System.out or System.err by a logger.(‰ºÓ¬
+N	java:S106&"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+O
+java:S1118	":Add a private constructor to hide the implicit public one.(¨»Ÿ
+J
+java:S2209"5Change this instance-reference to a static reference.(ººô

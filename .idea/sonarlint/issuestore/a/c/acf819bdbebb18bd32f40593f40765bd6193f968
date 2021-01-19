@@ -1,0 +1,29 @@
+
+R
+java:S2209 "5Change this instance-reference to a static reference.(€Âø8ÈœÅí.
+R
+java:S2209D"5Change this instance-reference to a static reference.(Ö·£´8ÈœÅí.
+?
+java:S1116¶"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÈœÅí.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 22 to the 15 allowed.(Âú8ÈœÅí.
+k
+java:S11922"PDefine a constant instead of duplicating this literal "**-shh invite**" 3 times.(İß¹“üÿÿÿÿ
+Y
+java:S2696¼"6Make the enclosing method "static" or remove this set.(Óø³ëøÿÿÿÿ8ÈœÅí.
+q
+java:S1192>"ODefine a constant instead of duplicating this literal "Shellby Helper" 4 times.(Œ¿ÉÚûÿÿÿÿ8ÈœÅí.
+l
+java:S3008"VRename this field "update_bots" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êæâÇ
+U	java:S106´"9Replace this use of System.out or System.err by a logger.(üùî.8ÈœÅí.
+>
+java:S1116C"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÈœÅí.
+?
+java:S1116Ï"Remove this empty statement.(Åñ­õşÿÿÿÿ8ÈœÅí.
+p
+java:S1450"ZRemove the "update_bots" field and declare it as a local variable in the relevant methods.(êæâÇ
+m
+java:S11923"PDefine a constant instead of duplicating this literal "**-shh status**" 3 times.(æ‹½´8ÈœÅí.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+S
+java:S2209 "5Change this instance-reference to a static reference.(ÒÏÉì8üë£Åí.

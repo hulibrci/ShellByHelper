@@ -1,0 +1,11 @@
+
+P
+java:S1854":Remove this useless assignment to local variable "config".(™…†Ž
+A
+java:S1481"+Remove this unused "config" local variable.(™…†Ž
+1
+java:S3626"Remove this redundant jump.(ûÁÝ…
+R
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(ƒ­å³øÿÿÿÿ
+R
+java:S3655"7Call "Optional#isPresent()" before accessing the value.(ƒ­å³øÿÿÿÿ

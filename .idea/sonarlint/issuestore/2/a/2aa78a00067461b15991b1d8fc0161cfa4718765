@@ -1,11 +1,0 @@
-
-W
-java:S2209"5Change this instance-reference to a static reference.(ÑÔèæıÿÿÿÿ8¡±Ÿ°º.
-g	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(ÀÊÂæøÿÿÿÿ
-m	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¿õ­ú8  †ß·.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑÔèæıÿÿÿÿ8©Å°º.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
-E
-java:S2440"(Remove this instantiation of "MainVoid".(Õ†ş8ƒºÒ‹¹.
->
-java:S1116"Remove this empty statement.(ôŸìúÿÿÿÿ8Êß†ß·.

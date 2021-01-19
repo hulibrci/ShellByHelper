@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="14.000000000000114" y="576.0">java.lang.FunctionalInterface</node>
+    <node x="1070.0" y="576.0">org.javacord.api.listener.webhook.WebhookAttachableListener</node>
+    <node x="1338.0" y="576.0">org.javacord.api.listener.user.UserAttachableListener</node>
+    <node x="770.0" y="576.0">org.javacord.api.listener.channel.TextChannelAttachableListener</node>
+    <node x="440.11764705882365" y="496.0">org.javacord.api.listener.channel.user.PrivateChannelAttachableListener</node>
+    <node x="764.1176470588236" y="496.0">org.javacord.api.listener.channel.group.GroupChannelAttachableListener</node>
+    <node x="494.0" y="576.0">org.javacord.api.listener.GloballyAttachableListener</node>
+    <node x="1072.1176470588236" y="496.0">org.javacord.api.listener.channel.server.text.ServerTextChannelAttachableListener</node>
+    <node x="1582.0" y="576.0">org.javacord.api.listener.server.ServerAttachableListener</node>
+    <node x="234.0" y="576.0">org.javacord.api.listener.ObjectAttachableListener</node>
+    <node x="765.1176470588236" y="666.0">org.javacord.api.listener.message.MessageCreateListener</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="org.javacord.api.listener.channel.TextChannelAttachableListener" target="org.javacord.api.listener.channel.user.PrivateChannelAttachableListener">
+      <point x="-93.33333333333326" y="-15.0" />
+      <point x="816.6666666666667" y="551.0" />
+      <point x="592.1176470588236" y="551.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.channel.TextChannelAttachableListener" target="org.javacord.api.listener.channel.group.GroupChannelAttachableListener">
+      <point x="0.0" y="-15.0" />
+      <point x="910.0" y="551.0" />
+      <point x="908.1176470588236" y="551.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="org.javacord.api.listener.ObjectAttachableListener">
+      <point x="-81.71428571428578" y="-27.0" />
+      <point x="826.4033613445379" y="636.0" />
+      <point x="354.0" y="636.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="org.javacord.api.listener.GloballyAttachableListener">
+      <point x="-40.85714285714289" y="-27.0" />
+      <point x="867.2605042016808" y="626.0" />
+      <point x="622.0" y="626.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="org.javacord.api.listener.webhook.WebhookAttachableListener">
+      <point x="40.85714285714289" y="-27.0" />
+      <point x="948.9747899159665" y="626.0" />
+      <point x="1194.0" y="626.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.channel.TextChannelAttachableListener" target="org.javacord.api.listener.channel.server.text.ServerTextChannelAttachableListener">
+      <point x="93.33333333333348" y="-15.0" />
+      <point x="1003.3333333333335" y="551.0" />
+      <point x="1236.1176470588236" y="551.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="org.javacord.api.listener.user.UserAttachableListener">
+      <point x="81.71428571428578" y="-27.0" />
+      <point x="989.8319327731094" y="636.0" />
+      <point x="1450.0" y="636.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="org.javacord.api.listener.channel.TextChannelAttachableListener">
+      <point x="0.0" y="-27.0" />
+      <point x="908.1176470588236" y="646.0" />
+      <point x="910.0" y="646.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="java.lang.FunctionalInterface">
+      <point x="-122.57142857142844" y="-27.0" />
+      <point x="785.5462184873952" y="646.0" />
+      <point x="114.00000000000011" y="646.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="org.javacord.api.listener.message.MessageCreateListener" target="org.javacord.api.listener.server.ServerAttachableListener">
+      <point x="122.57142857142844" y="-27.0" />
+      <point x="1030.689075630252" y="646.0" />
+      <point x="1702.0" y="646.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.5611146295123495" x="2731.9023702031604" y="830.6704288939053" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

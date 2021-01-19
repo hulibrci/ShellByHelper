@@ -1,9 +1,0 @@
-
-H
-java:S1481"+Remove this unused "config" local variable.(™…†Ž8­ïäÍ¹.
-J	java:S108")Either remove or fill this block of code.(ÀšËµýÿÿÿÿ8­ïäÍ¹.
-r	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(±ðÊ»úÿÿÿÿ8‹§§Ì¹.
-b	java:S101"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(û±Üº
-W
-java:S1854":Remove this useless assignment to local variable "config".(™…†Ž8­ïäÍ¹.
-o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘

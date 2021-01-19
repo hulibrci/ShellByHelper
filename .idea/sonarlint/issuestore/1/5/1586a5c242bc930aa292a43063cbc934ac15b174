@@ -1,0 +1,31 @@
+
+€
+java:S1450"^Remove the "generatorInvite" field and declare it as a local variable in the relevant methods.(Šô˜ıÿÿÿÿ8”Ñ†î.
+R
+java:S2209\"5Change this instance-reference to a static reference.(ÒÏÉì8Îëûî.
+S
+java:S2209´"5Change this instance-reference to a static reference.(ÒÏÉì8Îëûî.
+S
+java:S2209Ş"5Change this instance-reference to a static reference.(ÒÏÉì8Îëûî.
+h
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 36 to the 15 allowed.(Âú
+k	java:S117r"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ
+S
+java:S2209Š"5Change this instance-reference to a static reference.(ÒÏÉì8Îëûî.
+c
+java:S11927"MDefine a constant instead of duplicating this literal "\uD83C\uDFE0" 8 times.(§è³
+g	java:S117”"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñ™´
+7
+java:S1116d"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116¹"Remove this empty statement.(Åñ­õşÿÿÿÿ
+8
+java:S1116ã"Remove this empty statement.(Åñ­õşÿÿÿÿ
+i
+java:S1192@"NDefine a constant instead of duplicating this literal "1\uFE0F\u20E3" 8 times.(Å‡Åùÿÿÿÿ
+p
+java:S1450"URemove the "config" field and declare it as a local variable in the relevant methods.(«®ã‰ÿÿÿÿÿ
+8
+java:S1116"Remove this empty statement.(Åñ­õşÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Ú×ø‘
+l	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ë˜üìøÿÿÿÿ
